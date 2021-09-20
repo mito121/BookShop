@@ -57,6 +57,7 @@ namespace BookShop.Models
 
             // Ny liste over items som matcher
             List<Newspaper> searchResults = new List<Newspaper>();
+
             foreach (var item in newsPapers)
             {
                 if(item.Title.ToLower() == searchString.ToLower())
