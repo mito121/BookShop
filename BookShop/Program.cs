@@ -8,7 +8,8 @@ namespace BookShop
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Velkommen til min boghandel.");
+            Console.WriteLine("Velkommen til boghandlen.");
+            Console.WriteLine("");
             Store store = new Store();
             store.Search();
         }
